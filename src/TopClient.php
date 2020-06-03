@@ -7,7 +7,7 @@ class TopClient {
         'app_secrect'=>'',
         'app_url'=>''
     ];
-    public static function setConifg($config) {
+    public static function setConfig($config) {
         self::$config = $config;
     }
     public static function send($method,$paramArr=[],$sessionkey="") {
